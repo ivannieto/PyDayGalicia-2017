@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PyDay Galicia 2017 Website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-17 13:11+0000\n"
-"PO-Revision-Date: 2017-05-17 15:13+0200\n"
+"POT-Creation-Date: 2017-06-09 07:22+0000\n"
+"PO-Revision-Date: 2017-06-09 09:25+0200\n"
 "Last-Translator: Ivan Nieto <ivan.nieto.sousa@gmail.com>\n"
 "Language-Team: Python Vigo\n"
 "Language: gl\n"
@@ -26,7 +26,7 @@ msgstr "Galego"
 msgid "Español"
 msgstr "Español"
 
-#: config/urls.py:41
+#: config/urls.py:43
 #, python-format
 msgid "%s Admin"
 msgstr "[%s] Establece o teu contrasinal"
@@ -404,16 +404,17 @@ msgstr "Ola"
 msgid "Información del evento"
 msgstr "Información do evento"
 
-#: pydaygal/templates/headers.html:30 pydaygal/templates/pages/registry.html:7
+#: pydaygal/templates/headers.html:33
+#: pydaygal/templates/pages/registration.html:7
 #: pydaygal/templates/pages/schedule.html:24
 msgid "Registro"
 msgstr "Rexistro"
 
-#: pydaygal/templates/headers.html:42 pydaygal/templates/headers.html:85
+#: pydaygal/templates/headers.html:45 pydaygal/templates/headers.html:88
 msgid "Contacta con nosotros"
 msgstr "Contacta connosco"
 
-#: pydaygal/templates/headers.html:57
+#: pydaygal/templates/headers.html:60
 msgid "Salir"
 msgstr "Saír"
 
@@ -668,7 +669,8 @@ msgid ""
 "          <p class=\"card-text\">\n"
 "            Como novedad en esta edición, contaremos con dos tracks de "
 "conferencias,<br>\n"
-"            para todos los niveles, y talleres sobre diversas tecnologías.\n"
+"            para todos los niveles, y talleres<strong>*</strong> sobre "
+"diversas tecnologías.\n"
 "          </p>\n"
 "          "
 msgstr ""
@@ -690,20 +692,24 @@ msgstr ""
 "          <p class=\"card-text\">\n"
 "            Como novidade nesta edición, contaremos con dúas pistas de "
 "conferencias,<br>\n"
-"            para todos os niveis, e obradoiros para tódalas idades sobre "
-"diversas tecnoloxías.\n"
+"            para todos os niveis, e obradoiros<strong>*</strong> para "
+"tódalas idades sobre diversas tecnoloxías.\n"
 "          </p>\n"
 "          "
 
-#: pydaygal/templates/pages/home.html:42
+#: pydaygal/templates/pages/home.html:40
+msgid "PLAZAS PARA TALLERES AGOTADAS"
+msgstr "PRAZAS PARA OBRADOIROS ESGOTADAS"
+
+#: pydaygal/templates/pages/home.html:46
 msgid "¿Quién hace este evento posible?"
 msgstr "¿Quen fai este evento posible?"
 
-#: pydaygal/templates/pages/home.html:144
+#: pydaygal/templates/pages/home.html:149
 msgid "¿Quieres ser sponsor?"
 msgstr "¿Queres ser sponsor?"
 
-#: pydaygal/templates/pages/home.html:149
+#: pydaygal/templates/pages/home.html:154
 msgid "EDICIONES ANTERIORES"
 msgstr "EDICIÓNS ANTERIORES"
 
@@ -822,7 +828,7 @@ msgstr ""
 msgid "Ponencias"
 msgstr "Ponencias"
 
-#: pydaygal/templates/pages/registry.html:10
+#: pydaygal/templates/pages/registration.html:10
 msgid ""
 "\n"
 "            <p>La entrada al evento es totalmente gratuita, fomentando así\n"
@@ -842,11 +848,17 @@ msgstr ""
 "            e lugar no que desfrutar dunha sesión de networking!</p>\n"
 "          <p class=\"card-text\">"
 
-#: pydaygal/templates/pages/registry.html:43
+#: pydaygal/templates/pages/registration.html:43
 msgid "RESERVA YA TU PLAZA"
 msgstr "RESERVA XA A TÚA PRAZA"
 
-#: pydaygal/templates/speakers/_speaker.html:21
+#: pydaygal/templates/pages/schedule.html:203
+#: pydaygal/templates/pages/schedule.html:228
+#: pydaygal/templates/pages/schedule.html:254
+msgid "TALLER"
+msgstr ""
+
+#: pydaygal/templates/speakers/_speaker.html:23
 msgid "WORKSHOP"
 msgstr "OBRADOIRO"
 
